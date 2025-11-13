@@ -1,13 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GCSE CS AI Marking &amp; Question Website</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Welcome to Our Amazing Site</h1>
+            <p class="hero-subtitle">Experience smooth animations and beautiful design</p>
+            <button class="cta-button bounce" id="ctaButton">Get Started</button>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- Content Cards Section -->
+    <section class="cards-section">
+        <h2 class="section-title fade-in-up">Our Features</h2>
+        <div class="cards-container">
+            <div class="card fade-in-up" style="animation-delay: 0.1s;">
+                <div class="card-icon rotate">✨</div>
+                <h3>Beautiful Design</h3>
+                <p>Clean and modern interface with stunning visual effects</p>
+            </div>
+            <div class="card fade-in-up" style="animation-delay: 0.2s;">
+                <div class="card-icon rotate">🚀</div>
+                <h3>Fast Performance</h3>
+                <p>Optimized animations that run smoothly on all devices</p>
+            </div>
+            <div class="card fade-in-up" style="animation-delay: 0.3s;">
+                <div class="card-icon rotate">💡</div>
+                <h3>Creative Solutions</h3>
+                <p>Innovative approaches to engaging user experiences</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Content Section -->
+    <section class="content-section">
+        <div class="content-container">
+            <div class="content-text fade-in-left">
+                <h2>Discover More</h2>
+                <p>Our platform offers an incredible range of features designed to enhance your experience. With smooth animations and intuitive design, we make every interaction delightful.</p>
+                <button class="secondary-button" id="learnMoreBtn">Learn More</button>
+            </div>
+            <div class="content-image fade-in-right">
+                <div class="image-placeholder pulse">
+                    <span class="placeholder-icon">🎨</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Creating amazing experiences with beautiful animations</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <span class="social-icon bounce-hover">📱</span>
+                    <span class="social-icon bounce-hover">🌐</span>
+                    <span class="social-icon bounce-hover">📧</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Animated Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
